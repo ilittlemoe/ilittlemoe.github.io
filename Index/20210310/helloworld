@@ -708,8 +708,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <pre><code class="bash">sudo rm -rf/
 </code></pre>
 <h2 id="更新记录"><a href="#更新记录" class="headerlink" title="更新记录"></a>更新记录</h2><div class="timeline">
+<div class="timenode"><div class="meta"><p><p>2021-03-28</p>
+</p></div><div class="body"><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol><li>添加google analytics（修复了，已经正常运行）</li></ol>            </div><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol start="2"><li>添加到google search console</li></ol>            </div><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol start="3"><li>添加了网站地图</li></ol>            </div><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol start="4"><li>优化了seo（还待升级啊QAQ）</li></ol>            </div><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol start="5"><li>添加了robots</li></ol>            </div><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol start="6"><li>添加到google search console</li></ol>            </div><div class='checkbox plus blue checked'><input type="checkbox" checked="checked"/>            <ol start="7"><li>修改顶栏，将一些归类汇总到了子菜单下面</li></ol>            </div><div class='checkbox plus blue checked'><input type="checkbox" checked="checked"/>            <ol start="8"><li>将“我的作品”从主页移动到“关于”子菜单</li></ol>            </div><div class='checkbox plus blue checked'><input type="checkbox" checked="checked"/>            <ol start="9"><li>修改部分图标</li></ol>            </div></div></div>
+
 <div class="timenode"><div class="meta"><p><p>2021-03-26</p>
-</p></div><div class="body"><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol><li>添加谷歌统计</li></ol>            </div></div></div>
+</p></div><div class="body"><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <ol><li>添加google analytics</li></ol>            </div></div></div>
 
 <div class="timenode"><div class="meta"><p><p>2020-03-24</p>
 </p></div><div class="body"><div class='checkbox minus yellow checked'><input type="checkbox" checked="checked"/>            <ol><li>关闭聊天服务</li></ol>            </div><div class='checkbox minus yellow checked'><input type="checkbox" checked="checked"/>            <ol start="2"><li>关闭反馈页面</li></ol>            </div><div class='checkbox times red checked'><input type="checkbox" checked="checked"/>            <ol start="3"><li>修改网站图标（不知道为什么最后效果是扁的，待修改）</li></ol>            </div><div class='checkbox plus blue checked'><input type="checkbox" checked="checked"/>            <ol start="4"><li>修改网站logo</li></ol>            </div><div class='checkbox plus blue checked'><input type="checkbox" checked="checked"/>            <ol start="5"><li>修改背景</li></ol>            </div></div></div>
@@ -750,10 +753,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-03-26T19:30:34+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-03-28T23:18:27+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2021年3月26日</p>
+    <p>更新于：2021年3月28日</p>
   </a>
 </div>
 

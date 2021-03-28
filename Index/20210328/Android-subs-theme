@@ -663,10 +663,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </ul>
 <p>以上描述不一定准确，有能力的勇士可自己测试能不能支持更低或更高。</p>
 <p>💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅</p>
-<h2 id="预览图"><a href="#预览图" class="headerlink" title="预览图"></a>预览图</h2><p><img src="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="我目前的混合配置"></p>
+<h2 id="预览图"><a href="#预览图" class="headerlink" title="预览图"></a>预览图</h2><div class="gallery ">
+              <p><img src="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="我目前的混合配置"></p>
+            </div>
+
 <h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><p>为了方便码字，<code>Substratum lite</code>我在下文就会叫<code>主题管理器</code>了，特此说明。</p>
 <h3 id="安装-substratum-lite"><a href="#安装-substratum-lite" class="headerlink" title="安装 substratum lite"></a>安装 substratum lite</h3><p>这个我是在谷歌商店下载的，别的途径也许能下载到。</p>
-<p><img src="https://img.imgdb.cn/item/60604d708322e6675ce94f55.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d708322e6675ce94f55.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="substratum lite"></p>
+<div class="gallery ">
+              <p><img src="https://img.imgdb.cn/item/60604d708322e6675ce94f55.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d708322e6675ce94f55.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="substratum lite"></p>
+            </div>
+
 <h3 id="安装相关的主题文件"><a href="#安装相关的主题文件" class="headerlink" title="安装相关的主题文件"></a>安装相关的主题文件</h3><p>这个就相当于主题，可以用来定制系统的各个角落和部分。<br>当然，前提是你要找到适合你系统的主题。</p>
 <p>🍷推荐几个酷安有的主题：</p>
 <ul>
@@ -761,7 +767,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-03-28T18:27:01+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-03-28T23:12:10+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2021年3月28日</p>
