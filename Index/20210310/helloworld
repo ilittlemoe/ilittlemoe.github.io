@@ -2037,26 +2037,6 @@ if (navigator.geolocation) { //获取地理位置 用于判断日出日落时间
 
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- https://github.com/volantis-x/hexo-theme-volantis/issues/63 -->
-<script>
-	setTimeout(function() {
-	  loadScript("https://www.googletagmanager.com/gtag/js?id=G-BS5C77QZS3");
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'G-BS5C77QZS3');
-	}, 5000);
-	// 关于谷歌统计对 SPA 页面的处理：
-	// 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
-	// https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
-	volantis.pjax.push(()=>{
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('config', 'G-BS5C77QZS3', {'page_path': document.location.pathname});
-	},'google_analytics')
-</script>
-
 
 
 
