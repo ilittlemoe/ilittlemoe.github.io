@@ -11,5 +11,6 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+Disallow: /image/
 
 Sitemap: https://moelitt.ml/sitemap.xml
