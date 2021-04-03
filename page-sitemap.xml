@@ -10,6 +10,24 @@
     
     
     <url>
+        <loc>https://moelitt.ml/production/</loc>
+        <lastmod>2021-04-03T15:02:48.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://moelitt.ml/about/</loc>
+        <lastmod>2021-04-03T14:08:40.012Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://moelitt.ml/tags/</loc>
         <lastmod>2021-03-23T12:51:34.047Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -21,24 +39,6 @@
     <url>
         <loc>https://moelitt.ml/nylist/</loc>
         <lastmod>2021-03-23T12:51:34.032Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://moelitt.ml/production/</loc>
-        <lastmod>2021-03-23T12:51:34.032Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://moelitt.ml/about/</loc>
-        <lastmod>2021-03-23T12:51:34.016Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

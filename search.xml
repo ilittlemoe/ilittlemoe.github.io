@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>Bilibili Boot animation</title>
+      <link href="Index/20210403/Bilibili-Boot-animation"/>
+      <url>Index/20210403/Bilibili-Boot-animation</url>
+      
+        <content type="html"><![CDATA[<p>时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。<br>制作的过程非常简单，有手就行（可惜我没有）。</p><span id="more"></span><h2 id="————-使用说明-————"><a href="#————-使用说明-————" class="headerlink" title="———— 使用说明 ————"></a>———— 使用说明 ————</h2><h3 id="我的测试环境"><a href="#我的测试环境" class="headerlink" title="我的测试环境"></a>我的测试环境</h3><p>Magisk版本：22<br>MagiskAPP版本：22<br>系统：RR<br>安卓版本：10<br>屏幕分辨率：2K（1080*2160）</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>需要ROOT！<br>从Magisk中刷入即可，并尽量保证和我的测试环境差不多才应该不会出什么大问题，比如版本和分辨率之类的，但我没在别的地方测试过，如果有问题请反馈。<br>如果上面说的看不懂，那就下一位。</p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>此动画可能是仅适用于1080*2160分辨率，但我没其他设备测试。<br>另外，进度条版到100的时候并不一定会开机（涉及的时候没有想到，后来想到了，应酷友要求保留了这个版本），所以看起来会像是死循环开机一样哈哈哈哈哈。</p><div class="timeline"><div class="timenode"><div class="meta"><p><p>2021-03-06</p></p></div><div class="body"><p>进度条fix版到100就变成会开机了</p></div></div></div><h2 id="©版权声明"><a href="#©版权声明" class="headerlink" title="©版权声明"></a>©版权声明</h2><p>◎ 此素材由BiliBili概念版提取，所有解释权归原作者所有，本开机动画仅作学习交流使用，请于24小时删除。<br>◎ 未经许可，禁止修改源素材二次发布圈钱，违者我也拿你没什么办法（可以试试看）。<br>◎ 未经许可，我不想大家二次转载，这个动态我会一直更新！好吧，倘若你和我说一声我还是会答应的。</p><h2 id="❤感谢名单"><a href="#❤感谢名单" class="headerlink" title="❤感谢名单"></a>❤感谢名单</h2><p>■ 酷安用户@永不为奴710 （最下面的那个小球滚阿滚阿切阿切阿的那个是大佬的素材）<br>以及友情客串：<br>我的手<br>我的心<br>我的头<br>我的电脑<br>我的手机<br>等各类软件编辑器……</p><h2 id="最后是没人愿意看的【长篇大论】"><a href="#最后是没人愿意看的【长篇大论】" class="headerlink" title="最后是没人愿意看的【长篇大论】"></a>最后是没人愿意看的【长篇大论】</h2><p>承接开机动画制作，提供有偿服务。<br>具体的话可私议<br>我自己是这么想的：<br>自己提供素材的话1元一个。<br>不提供素材的话2元一个起步（我代找）<br>有高度定制需求的话3元起步，包做特效。<br>以上有偿服务均可在模块和动画上写上你们的名字随便你们怎么转载，如有需要可给相应工程给你们自己发挥。<br>关注一下我，可能或许大概以后会发布一点免费的开机动画，包括但不限于各类收集来的模块等搞基相关技巧（是搞机！）<br>完毕！</p><div class="note download"><p>QQ Grourp：123765796</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 美化 </category>
+          
+          <category> Android </category>
+          
+          <category> Magisk模块 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 美化 </tag>
+            
+            <tag> 安卓 </tag>
+            
+            <tag> 开机动画 </tag>
+            
+            <tag> Magisk模块 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Android subs theme</title>
       <link href="Index/20210328/Android-subs-theme"/>
       <url>Index/20210328/Android-subs-theme</url>

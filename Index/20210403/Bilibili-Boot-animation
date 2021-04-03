@@ -24,14 +24,13 @@
 
   <!-- 页面元数据 -->
   
-  <title>Android subs theme - Littlemoe&#39;Blog</title>
+  <title>Bilibili Boot animation - Littlemoe&#39;Blog</title>
   
-    <meta name="keywords" content="搞机,主题,Android,美化,Substratum">
+    <meta name="keywords" content="美化,安卓,开机动画,Magisk模块">
   
 
   
-    <meta name="description" content="本指南面向小白（因为我也是），大佬请随意，如有错误欢迎指出。
-类原生，最接近原生的安卓系统。著以简洁优雅……编不下去😂如果你看倦了类原生的风格，不妨试着美化一下，说不定能让你的手机焕发新的光彩，下面就跟着小编😜……你永远想象不到类原生可玩性有多高系列😏">
+    <meta name="description" content="时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。制作的过程非常简单，有手就行（可惜我没有）。">
   
 
   <!-- feed -->
@@ -555,7 +554,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class='headimg-div'>
       <a class='headimg-a'>
-        <img class='headimg' src='https://img.imgdb.cn/item/606049e88322e6675ce76a48.jpg'/>
+        <img class='headimg' src='https://img.imgdb.cn/item/6068851d8322e6675c7491d1.jpg'/>
       </a>
     </div>
   
@@ -564,7 +563,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title">
-        Android subs theme
+        Bilibili Boot animation
       </h1>
       <div class='new-meta-box'>
         
@@ -584,7 +583,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='new-meta-item category'>
     <a class='notlink'>
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <a class="category-link" href="/categories/%E4%B8%BB%E9%A2%98/">主题</a><span class="sep"></span><a class="category-link" href="/categories/%E4%B8%BB%E9%A2%98/Substratum/">Substratum</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BE%8E%E5%8C%96/">美化</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BE%8E%E5%8C%96/Android/">Android</a>
+      <a class="category-link" href="/categories/Magisk%E6%A8%A1%E5%9D%97/">Magisk模块</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BE%8E%E5%8C%96/">美化</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BE%8E%E5%8C%96/Android/">Android</a>
     </a>
   </div>
 
@@ -595,7 +594,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2021年3月28日</p>
+    <p>发布于：2021年4月3日</p>
   </a>
 </div>
 
@@ -606,7 +605,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item browse leancloud">
     <a class='notlink'>
       
-      <div id="lc-pv" data-title="Android subs theme" data-path="/Index/20210328/Android-subs-theme">
+      <div id="lc-pv" data-title="Bilibili Boot animation" data-path="/Index/20210403/Bilibili-Boot-animation">
         <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
         <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
         次浏览
@@ -624,114 +623,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   
   
-  <p>本指南面向小白（因为我也是），大佬请随意，如有错误欢迎指出。</p>
-<p>类原生，最接近原生的安卓系统。著以简洁优雅……编不下去😂<br>如果你看倦了类原生的风格，不妨试着美化一下，说不定能让你的手机焕发新的光彩，下面就跟着小编😜……<br>你永远想象不到类原生可玩性有多高系列😏</p>
+  <p>时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。<br>制作的过程非常简单，有手就行（可惜我没有）。</p>
 <span id="more"></span>
 
-<p><em>这个对手机的性能影响不大，如果配置没有出错的话影响几乎为1和2左右。</em></p>
-<hr>
-<p>第一次写图文，总计用时：4个半个小时😭</p>
-<div class="note danger"><p><strong>FBI Warning：</strong></p></div>
-<pre><code class="Tips">以下内容均有风险，我已经默认你会救砖，并有进入Rec的能力。如果你没有这些，建议你浏览而不要实践于工作环境。
-否则数据丢失或开不了机，一律与我无关。
-</code></pre>
-<hr>
-<h2 id="开始之前"><a href="#开始之前" class="headerlink" title="开始之前"></a>开始之前</h2><p>🍺<strong>预备环境</strong></p>
-<ol>
-<li> <strong>必须是类原生</strong>或<strong>接近类原生</strong>，按常理来说深度被定制的系统是无法使用的。</li>
-<li> <strong>必须ROOT</strong>，不管你是用<code>super su</code>，还是使用<code>Magisk</code>。总之需要ROOT权限。</li>
-<li> 以上两条是真的，且必须要符合。</li>
-</ol>
-<p>🍺<strong>我的环境</strong></p>
-<ol>
-<li> 系统：RROS</li>
-<li> 系统版本：10（Q）</li>
-<li> ROOT权限：Magisk 22</li>
-</ol>
-<p>🍺<strong>本期教程需要用到的清单如下</strong></p>
-<ul>
-<li><p>lite版本适用于安卓10及以上</p>
-<blockquote>
-<p>substratum lite（本期主角） （自行到谷歌商店下载）</p>
-</blockquote>
-</li>
-<li><p>此版本适用与安卓10以下，安卓7以上。</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://www.coolapk.com/apk/projekt.substratum">https://www.coolapk.com/apk/projekt.substratum</a></p>
-</blockquote>
-</li>
-</ul>
-<p>以上描述不一定准确，有能力的勇士可自己测试能不能支持更低或更高。</p>
-<p>💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅💅</p>
-<h2 id="预览图"><a href="#预览图" class="headerlink" title="预览图"></a>预览图</h2><div class="gallery ">
-              <p><img src="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="我目前的混合配置"></p>
-            </div>
+<h2 id="————-使用说明-————"><a href="#————-使用说明-————" class="headerlink" title="———— 使用说明 ————"></a>———— 使用说明 ————</h2><h3 id="我的测试环境"><a href="#我的测试环境" class="headerlink" title="我的测试环境"></a>我的测试环境</h3><p>Magisk版本：22<br>MagiskAPP版本：22<br>系统：RR<br>安卓版本：10<br>屏幕分辨率：2K（1080*2160）</p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>需要ROOT！<br>从Magisk中刷入即可，并尽量保证和我的测试环境差不多才应该不会出什么大问题，比如版本和分辨率之类的，但我没在别的地方测试过，如果有问题请反馈。<br>如果上面说的看不懂，那就下一位。</p>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>此动画可能是仅适用于1080*2160分辨率，但我没其他设备测试。<br>另外，进度条版到100的时候并不一定会开机（涉及的时候没有想到，后来想到了，应酷友要求保留了这个版本），所以看起来会像是死循环开机一样哈哈哈哈哈。</p>
+<div class="timeline">
+<div class="timenode"><div class="meta"><p><p>2021-03-06</p>
+</p></div><div class="body"><p>进度条fix版到100就变成会开机了</p></div></div>
+</div>
 
-<h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><p>为了方便码字，<code>Substratum lite</code>我在下文就会叫<code>主题管理器</code>了，特此说明。</p>
-<h3 id="安装-substratum-lite"><a href="#安装-substratum-lite" class="headerlink" title="安装 substratum lite"></a>安装 substratum lite</h3><p>这个我是在谷歌商店下载的，别的途径也许能下载到。</p>
-<div class="gallery ">
-              <p><img src="https://img.imgdb.cn/item/60604d708322e6675ce94f55.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d708322e6675ce94f55.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="substratum lite"></p>
-            </div>
 
-<h3 id="安装相关的主题文件"><a href="#安装相关的主题文件" class="headerlink" title="安装相关的主题文件"></a>安装相关的主题文件</h3><p>这个就相当于主题，可以用来定制系统的各个角落和部分。<br>当然，前提是你要找到适合你系统的主题。</p>
-<p>🍷推荐几个酷安有的主题：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.coolapk.com/apk/cn.lirui.pure">Pure</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.coolapk.com/apk/com.samsoft.valerie">Valerie</a></li>
-</ul>
-<p>🍷还有其他比较有名的版本</p>
-<ul>
-<li>flux-substratum</li>
-<li>swift dark</li>
-<li>belo</li>
-<li>flux</li>
-<li>flux white</li>
-<li>liv dark</li>
-<li>liv white</li>
-<li>one ui</li>
-<li>……</li>
-</ul>
-<p>🍻我目前使用的主题：</p>
-<ul>
-<li>acherus sube</li>
-<li>fake immersive</li>
-<li>krush</li>
-<li>wanplesUI</li>
-<li>flowdorExpert</li>
-<li>Substratum Icons Special</li>
-</ul>
-<p>如果你想跟我配置的预览图一样，那么你要确保已经安装了我使用的主题app。</p>
-<h3 id="开始配置系统主题"><a href="#开始配置系统主题" class="headerlink" title="开始配置系统主题"></a>开始配置系统主题</h3><h4 id="打开主题管理软件"><a href="#打开主题管理软件" class="headerlink" title="打开主题管理软件"></a>打开主题管理软件</h4><p>注意：有的主题安装后不会在桌面直接显示图标<br>需要打开<code>substratum主题管理软件</code>才会显示。</p>
-<div class="gallery ">
-              <p><img src="https://img.imgdb.cn/item/60604e508322e6675ce9be05.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604e508322e6675ce9be05.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="打开subs后的界面"></p>
-            </div>
 
-<h4 id="启用主题并配置叠加层"><a href="#启用主题并配置叠加层" class="headerlink" title="启用主题并配置叠加层"></a>启用主题并配置叠加层</h4><div class="gallery ">
-              <p><img src="https://img.imgdb.cn/item/60604e508322e6675ce9be00.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604e508322e6675ce9be00.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="配置步骤"></p>
-            </div>
-
-<h2 id="最后放上我的配置供大家抄作业"><a href="#最后放上我的配置供大家抄作业" class="headerlink" title="最后放上我的配置供大家抄作业"></a>最后放上我的配置供大家抄作业</h2><div class="gallery ">
-              <p><img src="https://img.imgdb.cn/item/60604e508322e6675ce9bdfd.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604e508322e6675ce9bdfd.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="我的配置加上文字详解"></p>
-            </div>
-
-<h2 id="END"><a href="#END" class="headerlink" title="END"></a>END</h2><p>祝大家搞机愉快🍻，有什么问题欢迎咨询提出。有时间我应该会回复，不过我也刚玩这个还不是非常了解。</p>
-<h2 id="特别篇（你想象得到Sub能玩出什么花样来吗😛）"><a href="#特别篇（你想象得到Sub能玩出什么花样来吗😛）" class="headerlink" title="特别篇（你想象得到Sub能玩出什么花样来吗😛）"></a>特别篇（你想象得到Sub能玩出什么花样来吗😛）</h2><h3 id="网络搜集预览"><a href="#网络搜集预览" class="headerlink" title="网络搜集预览"></a>网络搜集预览</h3><div class="gallery stretch" col='4'>
-              <p><img src="https://img.imgdb.cn/item/6060502c8322e6675cea9c77.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/6060502c8322e6675cea9c77.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="我最喜欢的一个主题之一"><br><img src="https://img.imgdb.cn/item/6060502c8322e6675cea9c85.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/6060502c8322e6675cea9c85.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="设置界面"><br><img src="https://img.imgdb.cn/item/6060502c8322e6675cea9c79.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/6060502c8322e6675cea9c79.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="另外一个粉色主题通知界面"><br><img src="https://img.imgdb.cn/item/6060502c8322e6675cea9c7f.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/6060502c8322e6675cea9c7f.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="设置界面"><br><img src=":/1b89d1f9a458420699984591cde152bc" class="lazyload" data-srcset=":/1b89d1f9a458420699984591cde152bc" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="a45f96a2e50309841512a7f5903c897f.jpg"></p>
-            </div>
-
-<p>别问我为什么不折腾成上面那样，因为要命！能把我叠加叠疯。<br>系统类型也是不允许的，不过过后有时间我可以试一下哈哈。</p>
-<h2 id="救砖篇"><a href="#救砖篇" class="headerlink" title="救砖篇"></a>救砖篇</h2><p>不出意外，你在使用过程中总有意外的时候🙏。</p>
-<p>如果你有<code>TWRP</code>或者其他<code>rec</code>，可在出问题后在你手机的<code>内部存储</code>里找到下面的路径的文件刷入恢复包，即可卸载已经安装的叠加层（主题）：</p>
-<ul>
-<li><p>lite刷这个<br><code>/storage/emulated/0/substratum/substratumRescue.zip</code></p>
-</li>
-<li><p>另外一个版本刷这个<br><code>/storage/emulated/0/substratum/substratumRescue_Legacy.zip</code></p>
-</li>
-</ul>
-<p>另外一个不行就两个都试一下，懂我意思吧？</p>
-<div class="note quote"><p>【©版权声明】<br> 此教程禁止转载，包括但不限于此图文的图片文字等内容。<br> 如需转载，请务必告知我一声。</p></div>
-
-<div class="note warning"><p>【免责声明】<br> 搞机有风险，操作需谨慎<br> 无救砖能力，自己两行泪<br> 数据不备份，自己两行泪<br> 不看清说明，自己两行泪</p></div>
+<h2 id="©版权声明"><a href="#©版权声明" class="headerlink" title="©版权声明"></a>©版权声明</h2><p>◎ 此素材由BiliBili概念版提取，所有解释权归原作者所有，本开机动画仅作学习交流使用，请于24小时删除。<br>◎ 未经许可，禁止修改源素材二次发布圈钱，违者我也拿你没什么办法（可以试试看）。<br>◎ 未经许可，我不想大家二次转载，这个动态我会一直更新！好吧，倘若你和我说一声我还是会答应的。</p>
+<h2 id="❤感谢名单"><a href="#❤感谢名单" class="headerlink" title="❤感谢名单"></a>❤感谢名单</h2><p>■ 酷安用户@永不为奴710 （最下面的那个小球滚阿滚阿切阿切阿的那个是大佬的素材）<br>以及友情客串：<br>我的手<br>我的心<br>我的头<br>我的电脑<br>我的手机<br>等各类软件编辑器……</p>
+<h2 id="最后是没人愿意看的【长篇大论】"><a href="#最后是没人愿意看的【长篇大论】" class="headerlink" title="最后是没人愿意看的【长篇大论】"></a>最后是没人愿意看的【长篇大论】</h2><p>承接开机动画制作，提供有偿服务。<br>具体的话可私议<br>我自己是这么想的：<br>自己提供素材的话1元一个。<br>不提供素材的话2元一个起步（我代找）<br>有高度定制需求的话3元起步，包做特效。<br>以上有偿服务均可在模块和动画上写上你们的名字随便你们怎么转载，如有需要可给相应工程给你们自己发挥。<br>关注一下我，可能或许大概以后会发布一点免费的开机动画，包括但不限于各类收集来的模块等搞基相关技巧（是搞机！）<br>完毕！</p>
+<div class="note download"><p>QQ Grourp：123765796</p></div>
   
   
     
@@ -744,7 +652,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
     </section>
     <section class='body'>
-      <div class="vlts-rps"><a class="item" href="\Index\20210403\Bilibili-Boot-animation" title="Bilibili Boot animation" rel="bookmark "><img src="image/head_portrait/head_portrait.jpg" class="lazyload" data-srcset="image/head_portrait/head_portrait.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" /><span class="title">Bilibili Boot animation</span><span class="excerpt">时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。制作的过程非常简单，有手就行（可惜我没...</span></a></div></section></div>
+      <div class="vlts-rps"><a class="item" href="\Index\20210328\Android-subs-theme" title="Android subs theme" rel="bookmark "><img src="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" class="lazyload" data-srcset="https://img.imgdb.cn/item/60604d3c8322e6675ce92e27.jpg" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" /><span class="title">Android subs theme</span><span class="excerpt">本指南面向小白（因为我也是），大佬请随意，如有错误欢迎指出。
+类原生，最接近原生的安卓系统。著以简洁优雅……编不下去😂如...</span></a></div></section></div>
       
       
         <div class='copyright'>
@@ -756,7 +665,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://moelitt.ml/Index/20210328/Android-subs-theme>https://moelitt.ml/Index/20210328/Android-subs-theme</a></p>
+                <p>本文永久链接是：<a href=https://moelitt.ml/Index/20210403/Bilibili-Boot-animation>https://moelitt.ml/Index/20210403/Bilibili-Boot-animation</a></p>
               
             
           </blockquote>
@@ -773,10 +682,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-03-28T23:12:10+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-04-03T23:10:54+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2021年3月28日</p>
+    <p>更新于：2021年4月3日</p>
   </a>
 </div>
 
@@ -785,7 +694,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%90%9E%E6%9C%BA/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>搞机</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E4%B8%BB%E9%A2%98/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>主题</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Android/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>Android</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BE%8E%E5%8C%96/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>美化</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Substratum/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>Substratum</p></a></div>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BE%8E%E5%8C%96/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>美化</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%AE%89%E5%8D%93/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>安卓</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%BC%80%E6%9C%BA%E5%8A%A8%E7%94%BB/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>开机动画</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Magisk%E6%A8%A1%E5%9D%97/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>Magisk模块</p></a></div>
 
 
         
@@ -798,8 +707,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://moelitt.ml/Index/20210328/Android-subs-theme&title=Android subs theme - Littlemoe'Blog&pics=true&summary=本指南面向小白（因为我也是），大佬请随意，如有错误欢迎指出。
-类原生，最接近原生的安卓系统。著以简洁优雅……编不下去😂如果你看倦了类原生的风格，不妨试着美化一下，说不定能让你的手机焕发新的光彩，下面就跟着小编😜……你永远想象不到类原生可玩性有多高系列😏"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://moelitt.ml/Index/20210403/Bilibili-Boot-animation&title=Bilibili Boot animation - Littlemoe'Blog&pics=true&summary=时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。制作的过程非常简单，有手就行（可惜我没有）。"
           
           >
           
@@ -811,8 +719,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://moelitt.ml/Index/20210328/Android-subs-theme&title=Android subs theme - Littlemoe'Blog&pics=true&summary=本指南面向小白（因为我也是），大佬请随意，如有错误欢迎指出。
-类原生，最接近原生的安卓系统。著以简洁优雅……编不下去😂如果你看倦了类原生的风格，不妨试着美化一下，说不定能让你的手机焕发新的光彩，下面就跟着小编😜……你永远想象不到类原生可玩性有多高系列😏"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://moelitt.ml/Index/20210403/Bilibili-Boot-animation&title=Bilibili Boot animation - Littlemoe'Blog&pics=true&summary=时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。制作的过程非常简单，有手就行（可惜我没有）。"
           
           >
           
@@ -824,7 +731,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://moelitt.ml/Index/20210328/Android-subs-theme&text=Android subs theme - Littlemoe'Blog"
+            target="_blank" href="https://t.me/share/url?url=https://moelitt.ml/Index/20210403/Bilibili-Boot-animation&text=Bilibili Boot animation - Littlemoe'Blog"
           
           >
           
@@ -850,20 +757,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/Index/20210403/Bilibili-Boot-animation'>
-          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>Bilibili Boot animation</p>
-          <p class='content'>时鸽很久，Bilibili开机动画终于制作出来了，让关注的小朋友们久等了，非常抱歉。制作的过程非常简单，有手就行（可惜我没有）。
-
-
-———— 使用说明 ————我的测试环境Magisk版本：2...</p>
-        </a>
       
-      
-        <a class='next' href='/Index/20210326/2021-Todo-list'>
-          <p class='title'>2021 Todo list<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>今年想实现的一些计划清单
-
-说实话，有一说一，确实如此。人的一生总要有点计划，就像我，很多时候计划的都是零零碎碎，甚至做到哪算哪。有的时候暗搓搓的在心里立了一些计划，可不知道过了几天零一个早上，...</p>
+        <a class='next' href='/Index/20210328/Android-subs-theme'>
+          <p class='title'>Android subs theme<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>本指南面向小白（因为我也是），大佬请随意，如有错误欢迎指出。
+类原生，最接近原生的安卓系统。著以简洁优雅……编不下去😂如果你看倦了类原生的风格，不妨试着美化一下，说不定能让你的手机焕发新的光彩...</p>
         </a>
       
     </div>
@@ -899,7 +797,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D"><span class="toc-number">1.</span> <span class="toc-text">开始之前</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%84%E8%A7%88%E5%9B%BE"><span class="toc-number">2.</span> <span class="toc-text">预览图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E6%AD%A5%E9%AA%A4"><span class="toc-number">3.</span> <span class="toc-text">配置步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-substratum-lite"><span class="toc-number">3.1.</span> <span class="toc-text">安装 substratum lite</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B8%BB%E9%A2%98%E6%96%87%E4%BB%B6"><span class="toc-number">3.2.</span> <span class="toc-text">安装相关的主题文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B%E9%85%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F%E4%B8%BB%E9%A2%98"><span class="toc-number">3.3.</span> <span class="toc-text">开始配置系统主题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%93%E5%BC%80%E4%B8%BB%E9%A2%98%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6"><span class="toc-number">3.3.1.</span> <span class="toc-text">打开主题管理软件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%AF%E7%94%A8%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%85%8D%E7%BD%AE%E5%8F%A0%E5%8A%A0%E5%B1%82"><span class="toc-number">3.3.2.</span> <span class="toc-text">启用主题并配置叠加层</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E5%90%8E%E6%94%BE%E4%B8%8A%E6%88%91%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BE%9B%E5%A4%A7%E5%AE%B6%E6%8A%84%E4%BD%9C%E4%B8%9A"><span class="toc-number">4.</span> <span class="toc-text">最后放上我的配置供大家抄作业</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#END"><span class="toc-number">5.</span> <span class="toc-text">END</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E5%88%AB%E7%AF%87%EF%BC%88%E4%BD%A0%E6%83%B3%E8%B1%A1%E5%BE%97%E5%88%B0Sub%E8%83%BD%E7%8E%A9%E5%87%BA%E4%BB%80%E4%B9%88%E8%8A%B1%E6%A0%B7%E6%9D%A5%E5%90%97%F0%9F%98%9B%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">特别篇（你想象得到Sub能玩出什么花样来吗😛）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%90%9C%E9%9B%86%E9%A2%84%E8%A7%88"><span class="toc-number">6.1.</span> <span class="toc-text">网络搜集预览</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%91%E7%A0%96%E7%AF%87"><span class="toc-number">7.</span> <span class="toc-text">救砖篇</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%80%94%E2%80%94%E2%80%94%E2%80%94-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E-%E2%80%94%E2%80%94%E2%80%94%E2%80%94"><span class="toc-number">1.</span> <span class="toc-text">———— 使用说明 ————</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83"><span class="toc-number">1.1.</span> <span class="toc-text">我的测试环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">使用方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">1.3.</span> <span class="toc-text">注意事项</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%C2%A9%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E"><span class="toc-number">2.</span> <span class="toc-text">©版权声明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%9D%A4%E6%84%9F%E8%B0%A2%E5%90%8D%E5%8D%95"><span class="toc-number">3.</span> <span class="toc-text">❤感谢名单</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E5%90%8E%E6%98%AF%E6%B2%A1%E4%BA%BA%E6%84%BF%E6%84%8F%E7%9C%8B%E7%9A%84%E3%80%90%E9%95%BF%E7%AF%87%E5%A4%A7%E8%AE%BA%E3%80%91"><span class="toc-number">4.</span> <span class="toc-text">最后是没人愿意看的【长篇大论】</span></a></li></ol>
     </div>
   </section>
 
@@ -918,7 +816,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <script>
   window.pdata={}
   pdata.ispage=true;
-  pdata.postTitle="Android subs theme";
+  pdata.postTitle="Bilibili Boot animation";
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   // header 这里无论是否开启pjax都需要
